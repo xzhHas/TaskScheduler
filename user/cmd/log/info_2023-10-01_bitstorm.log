@@ -1,0 +1,6 @@
+2023-10-01T07:25:55.182+0800	INFO	server/middleware.go:47	req_id:2233|component:grpc,operation:/api.user.v1.User/GetUserByName,args:userName:"admin",code:0,reason:
+2023-10-01T07:25:55.184+0800	INFO	server/middleware.go:60	req_id:2233|cost 1.770334ms
+2023-10-01T07:25:55.184+0800	INFO	server/middleware.go:61	req_id:2233|reply message:"success" data:{userID:"1" userName:"admin" pwd:"123321" sex:1 age:18 mobile:"18676662555" idCard:"5106811222223333"}
+2023-10-01T07:25:55.189+0800	INFO	server/middleware.go:47	req_id:2233|component:grpc,operation:/api.user.v1.User/GetUserByName,args:userName:"admin",code:0,reason:
+2023-10-01T07:25:55.190+0800	INFO	server/middleware.go:60	req_id:2233|cost 1.9015ms
+2023-10-01T07:25:55.190+0800	INFO	server/middleware.go:61	req_id:2233|reply message:"success" data:{userID:"1" userName:"admin" pwd:"123321" sex:1 age:18 mobile:"18676662555" idCard:"5106811222223333"}

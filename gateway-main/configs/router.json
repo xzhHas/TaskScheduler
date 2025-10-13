@@ -1,0 +1,56 @@
+{
+  "/get_user_info": {
+    "host": "user-svc",
+    "limit_timeout": 2000,
+    "limit_rate": 1000,
+    "scheme": "http",
+    "uri": "/get_user_info",
+    "auth": "2",
+    "remarks": "查询用户信息"
+  },
+  "/get_user_info_by_name": {
+    "host": "user-svc",
+    "limit_timeout": 2000,
+    "limit_rate": 1000,
+    "scheme": "http",
+    "uri": "/get_user_info_by_name",
+    "auth": "2",
+    "remarks": "查询用户信息"
+  },
+  "/v1/sec_kill": {
+    "host": "sec_kill-svr",
+    "limit_timeout": 2000,
+    "limit_rate": 1000,
+    "scheme": "http",
+    "uri": "/v1/sec_kill",
+    "auth": "2",
+    "remarks": "秒杀"
+  },
+  "/lottery/v1/get_lucky": {
+    "host": "lottery-svr",
+    "limit_timeout": 2000,
+    "limit_rate": 1000,
+    "scheme": "http",
+    "uri": "/lottery/v1/get_lucky",
+    "auth": "2",
+    "remarks": "抽奖"
+  },
+  "/xtimer/createTimer": {
+    "host": "xtimer-svr",
+    "limit_timeout": 2000,
+    "limit_rate": 1000,
+    "scheme": "http",
+    "uri": "/xtimer/createTimer",
+    "auth": "2",
+    "remarks": "创建定时任务"
+  },
+  "xtimer/enableTimer": {
+    "host": "xtimer-svr",
+    "limit_timeout": 2000,
+    "limit_rate": 1000,
+    "scheme": "http",
+    "uri": "xtimer/enableTimer",
+    "auth": "2",
+    "remarks": "激活定时任务"
+  }
+}

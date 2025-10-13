@@ -1,0 +1,58 @@
+2023-09-30T09:54:42.051+0800	INFO	service/user.go:74	req_id:2233|get user request userName:"admin" 
+
+2023-09-30T09:54:42.060+0800	INFO	service/user.go:74	req_id:2233|get user request userName:"admin" 
+
+2023-09-30T09:55:28.327+0800	INFO	service/user.go:74	req_id:2233|get user request userName:"admin" 
+
+2023-09-30T09:55:28.335+0800	INFO	service/user.go:74	req_id:2233|get user request userName:"admin" 
+
+2023-09-30T10:03:33.117+0800	INFO	service/user.go:74	req_id:2233|get user request userName:"admin" 
+
+2023-09-30T10:03:33.121+0800	INFO	server/middleware.go:53	kindservercomponentgrpcoperation/api.user.v1.User/GetUserByNameargsuserName:"admin"code0reasonlatency0.004019625
+2023-09-30T10:03:33.127+0800	INFO	service/user.go:74	req_id:2233|get user request userName:"admin" 
+
+2023-09-30T10:03:33.129+0800	INFO	server/middleware.go:53	kindservercomponentgrpcoperation/api.user.v1.User/GetUserByNameargsuserName:"admin"code0reasonlatency0.001998292
+2023-09-30T10:05:11.697+0800	INFO	service/user.go:74	req_id:2233|get user request userName:"admin" 
+
+2023-09-30T10:05:11.701+0800	INFO	server/middleware.go:53	component grpcoperation /api.user.v1.User/GetUserByNameargs userName:"admin"code 0reason latency 0.00347975
+2023-09-30T10:05:11.706+0800	INFO	service/user.go:74	req_id:2233|get user request userName:"admin" 
+
+2023-09-30T10:05:11.708+0800	INFO	server/middleware.go:53	component grpcoperation /api.user.v1.User/GetUserByNameargs userName:"admin"code 0reason latency 0.002429042
+2023-09-30T10:06:57.549+0800	INFO	service/user.go:74	req_id:2233|get user request userName:"admin" 
+
+2023-09-30T10:06:57.552+0800	INFO	server/middleware.go:53	component:%s,operation:%s,args:%s,code:%s,reason:%s,latency:%sgrpc/api.user.v1.User/GetUserByNameuserName:"admin" 00.003420292
+2023-09-30T10:06:57.559+0800	INFO	service/user.go:74	req_id:2233|get user request userName:"admin" 
+
+2023-09-30T10:06:57.561+0800	INFO	server/middleware.go:53	component:%s,operation:%s,args:%s,code:%s,reason:%s,latency:%sgrpc/api.user.v1.User/GetUserByNameuserName:"admin" 00.002380625
+2023-09-30T10:07:14.874+0800	INFO	service/user.go:74	req_id:2233|get user request userName:"admin" 
+
+2023-09-30T10:07:14.876+0800	INFO	server/middleware.go:53	req_id:2233|component:grpc,operation:/api.user.v1.User/GetUserByName,args:userName:"admin",code:%!s(int32=0),reason:,latency:%!s(float64=0.002756875)
+2023-09-30T10:07:14.881+0800	INFO	service/user.go:74	req_id:2233|get user request userName:"admin" 
+
+2023-09-30T10:07:14.883+0800	INFO	server/middleware.go:53	req_id:2233|component:grpc,operation:/api.user.v1.User/GetUserByName,args:userName:"admin",code:%!s(int32=0),reason:,latency:%!s(float64=0.001458417)
+2023-09-30T10:07:52.812+0800	INFO	service/user.go:74	req_id:2233|get user request userName:"admin" 
+
+2023-09-30T10:07:52.815+0800	INFO	server/middleware.go:53	req_id:2233|component:grpc,operation:/api.user.v1.User/GetUserByName,args:userName:"admin",code:0,reason:,latency:0.0025495
+2023-09-30T10:07:52.820+0800	INFO	service/user.go:74	req_id:2233|get user request userName:"admin" 
+
+2023-09-30T10:07:52.822+0800	INFO	server/middleware.go:53	req_id:2233|component:grpc,operation:/api.user.v1.User/GetUserByName,args:userName:"admin",code:0,reason:,latency:0.001606083
+2023-09-30T10:17:38.970+0800	INFO	server/middleware.go:43	req_id:2233|component:,operation:,args:userName:"admin",code:0,reason:
+2023-09-30T10:17:38.970+0800	INFO	service/user.go:74	req_id:2233|get user request userName:"admin" 
+
+2023-09-30T10:17:38.973+0800	INFO	server/middleware.go:60	req_id:2233|cost 2.710125ms
+2023-09-30T10:17:38.973+0800	INFO	server/middleware.go:61	req_id:2233|reply message:"success" data:{userID:"1" userName:"admin" pwd:"123321" sex:1 age:18 mobile:"18676662555" idCard:"5106811222223333"}
+2023-09-30T10:17:38.978+0800	INFO	server/middleware.go:43	req_id:2233|component:,operation:,args:userName:"admin",code:0,reason:
+2023-09-30T10:17:38.979+0800	INFO	service/user.go:74	req_id:2233|get user request userName:"admin" 
+
+2023-09-30T10:17:38.980+0800	INFO	server/middleware.go:60	req_id:2233|cost 1.896166ms
+2023-09-30T10:17:38.981+0800	INFO	server/middleware.go:61	req_id:2233|reply message:"success" data:{userID:"1" userName:"admin" pwd:"123321" sex:1 age:18 mobile:"18676662555" idCard:"5106811222223333"}
+2023-09-30T10:24:25.663+0800	INFO	server/middleware.go:47	req_id:2233|component:grpc,operation:/api.user.v1.User/GetUserByName,args:userName:"admin",code:0,reason:
+2023-09-30T10:24:25.663+0800	INFO	service/user.go:74	req_id:2233|get user request userName:"admin" 
+
+2023-09-30T10:24:25.666+0800	INFO	server/middleware.go:60	req_id:2233|cost 3.094834ms
+2023-09-30T10:24:25.666+0800	INFO	server/middleware.go:61	req_id:2233|reply message:"success"  data:{userID:"1"  userName:"admin"  pwd:"123321"  sex:1  age:18  mobile:"18676662555"  idCard:"5106811222223333"}
+2023-09-30T10:24:25.672+0800	INFO	server/middleware.go:47	req_id:2233|component:grpc,operation:/api.user.v1.User/GetUserByName,args:userName:"admin",code:0,reason:
+2023-09-30T10:24:25.672+0800	INFO	service/user.go:74	req_id:2233|get user request userName:"admin" 
+
+2023-09-30T10:24:25.674+0800	INFO	server/middleware.go:60	req_id:2233|cost 1.58ms
+2023-09-30T10:24:25.674+0800	INFO	server/middleware.go:61	req_id:2233|reply message:"success"  data:{userID:"1"  userName:"admin"  pwd:"123321"  sex:1  age:18  mobile:"18676662555"  idCard:"5106811222223333"}

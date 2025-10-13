@@ -1,0 +1,29 @@
+server:
+  http:
+    addr: 0.0.0.0:8668
+    timeout: 1s
+  grpc:
+    addr: 0.0.0.0:8669
+    timeout: 1s
+data:
+  database:
+    driver: mysql
+    source: bitstorm-svr-go-root:YfxGpMkPWYfEi87K@tcp(59.110.34.61:3306)/bitstorm-svr-go
+    addr: 59.110.34.61:3306
+    user: bitstorm-svr-go-root
+    password: YfxGpMkPWYfEi87K
+    dataBase: bitstorm-svr-go
+    maxIdleConn : 2000
+    maxOpenConn: 20000
+    maxIdleTime: 30
+
+  redis:
+    addr: 59.110.34.61:6379
+    db: 8
+    passWord: xiwanli
+    read_timeout: 2s
+    write_timeout: 2s
+    
+micro:
+  lb:
+    addr: 59.110.34.61:20000

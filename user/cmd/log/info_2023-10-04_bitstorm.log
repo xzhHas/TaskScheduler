@@ -1,0 +1,102 @@
+2023-10-04T07:44:57.877+0800	INFO	server/middleware.go:41	req_id:2233|component:grpc,operation:/api.user.v1.User/GetUserByName,args:userName:"admin",code:0,reason:
+2023-10-04T07:44:57.883+0800	INFO	server/middleware.go:54	req_id:2233|cost 5.737292ms
+2023-10-04T07:44:57.883+0800	INFO	server/middleware.go:55	req_id:2233|reply message:"success" data:{userID:"1" userName:"admin" pwd:"123321" sex:1 age:18 mobile:"18676662555" idCard:"5106811222223333"}
+2023-10-04T07:44:57.888+0800	INFO	server/middleware.go:41	req_id:2233|component:grpc,operation:/api.user.v1.User/GetUserByName,args:userName:"admin",code:0,reason:
+2023-10-04T07:44:57.890+0800	INFO	server/middleware.go:54	req_id:2233|cost 1.653584ms
+2023-10-04T07:44:57.890+0800	INFO	server/middleware.go:55	req_id:2233|reply message:"success" data:{userID:"1" userName:"admin" pwd:"123321" sex:1 age:18 mobile:"18676662555" idCard:"5106811222223333"}
+2023-10-04T07:45:48.120+0800	INFO	user/router.go:51	req_id:%!s(<nil>)|ReqPath[/get_user_info]-Duration[8.833µs]
+
+2023-10-04T07:56:15.424+0800	INFO	user/router.go:56	req_id:%!s(<nil>)|ReqPath[/get_user_info]-Duration[20.791µs]
+
+2023-10-04T08:03:39.450+0800	INFO	user/router.go:55	Trace-ID:|ReqPath[/get_user_info]-Duration[7.167µs]
+
+2023-10-04T08:04:34.819+0800	INFO	user/router.go:56	Trace-ID:|ReqPath[/get_user_info]-Duration[18.042µs]
+
+2023-10-04T08:05:46.601+0800	INFO	user/router.go:55	Trace-ID:121321313|ReqPath[/get_user_info]-Duration[8.041µs]
+
+2023-10-04T08:07:27.551+0800	INFO	server/middleware.go:42	Trace-ID:|component:grpc,operation:/api.user.v1.User/GetUserByName,args:userName:"admin",code:0,reason:
+2023-10-04T08:07:27.556+0800	INFO	server/middleware.go:55	Trace-ID:|cost 4.686291ms
+2023-10-04T08:07:27.556+0800	INFO	server/middleware.go:56	Trace-ID:|reply message:"success" data:{userID:"1" userName:"admin" pwd:"123321" sex:1 age:18 mobile:"18676662555" idCard:"5106811222223333"}
+2023-10-04T08:07:27.561+0800	INFO	server/middleware.go:42	Trace-ID:|component:grpc,operation:/api.user.v1.User/GetUserByName,args:userName:"admin",code:0,reason:
+2023-10-04T08:07:27.563+0800	INFO	server/middleware.go:55	Trace-ID:|cost 1.684875ms
+2023-10-04T08:07:27.563+0800	INFO	server/middleware.go:56	Trace-ID:|reply message:"success" data:{userID:"1" userName:"admin" pwd:"123321" sex:1 age:18 mobile:"18676662555" idCard:"5106811222223333"}
+2023-10-04T08:13:32.458+0800	INFO	server/middleware.go:42	Trace-ID:|component:grpc,operation:/api.user.v1.User/GetUserByName,args:userName:"admin",code:0,reason:
+2023-10-04T08:13:32.461+0800	INFO	server/middleware.go:55	Trace-ID:|cost 2.071334ms
+2023-10-04T08:13:32.461+0800	INFO	server/middleware.go:56	Trace-ID:|reply message:"success" data:{userID:"1" userName:"admin" pwd:"123321" sex:1 age:18 mobile:"18676662555" idCard:"5106811222223333"}
+2023-10-04T08:13:32.466+0800	INFO	server/middleware.go:42	Trace-ID:|component:grpc,operation:/api.user.v1.User/GetUserByName,args:userName:"admin",code:0,reason:
+2023-10-04T08:13:32.468+0800	INFO	server/middleware.go:55	Trace-ID:|cost 1.819083ms
+2023-10-04T08:13:32.468+0800	INFO	server/middleware.go:56	Trace-ID:|reply message:"success" data:{userID:"1" userName:"admin" pwd:"123321" sex:1 age:18 mobile:"18676662555" idCard:"5106811222223333"}
+2023-10-04T08:15:04.700+0800	INFO	server/middleware.go:42	Trace-ID:|component:grpc,operation:/api.user.v1.User/GetUserByName,args:userName:"admin",code:0,reason:
+2023-10-04T08:15:04.711+0800	INFO	server/middleware.go:55	Trace-ID:|cost 10.915208ms
+2023-10-04T08:15:04.711+0800	INFO	server/middleware.go:56	Trace-ID:|reply message:"success" data:{userID:"1" userName:"admin" pwd:"123321" sex:1 age:18 mobile:"18676662555" idCard:"5106811222223333"}
+2023-10-04T08:15:04.716+0800	INFO	server/middleware.go:42	Trace-ID:|component:grpc,operation:/api.user.v1.User/GetUserByName,args:userName:"admin",code:0,reason:
+2023-10-04T08:15:04.718+0800	INFO	server/middleware.go:55	Trace-ID:|cost 1.575416ms
+2023-10-04T08:15:04.718+0800	INFO	server/middleware.go:56	Trace-ID:|reply message:"success" data:{userID:"1" userName:"admin" pwd:"123321" sex:1 age:18 mobile:"18676662555" idCard:"5106811222223333"}
+2023-10-04T08:16:31.431+0800	INFO	server/middleware.go:43	Trace-ID:|component:grpc,operation:/api.user.v1.User/GetUserByName,args:userName:"admin",code:0,reason:
+2023-10-04T08:16:31.434+0800	INFO	server/middleware.go:56	Trace-ID:|cost 2.479ms
+2023-10-04T08:16:31.434+0800	INFO	server/middleware.go:57	Trace-ID:|reply message:"success" data:{userID:"1" userName:"admin" pwd:"123321" sex:1 age:18 mobile:"18676662555" idCard:"5106811222223333"}
+2023-10-04T08:16:31.440+0800	INFO	server/middleware.go:43	Trace-ID:|component:grpc,operation:/api.user.v1.User/GetUserByName,args:userName:"admin",code:0,reason:
+2023-10-04T08:16:31.442+0800	INFO	server/middleware.go:56	Trace-ID:|cost 2.023125ms
+2023-10-04T08:16:31.442+0800	INFO	server/middleware.go:57	Trace-ID:|reply message:"success" data:{userID:"1" userName:"admin" pwd:"123321" sex:1 age:18 mobile:"18676662555" idCard:"5106811222223333"}
+2023-10-04T08:17:07.181+0800	INFO	server/middleware.go:44	Trace-ID:|component:grpc,operation:/api.user.v1.User/GetUserByName,args:userName:"admin",code:0,reason:
+2023-10-04T08:17:07.184+0800	INFO	server/middleware.go:57	Trace-ID:|cost 2.748167ms
+2023-10-04T08:17:07.184+0800	INFO	server/middleware.go:58	Trace-ID:|reply message:"success"  data:{userID:"1"  userName:"admin"  pwd:"123321"  sex:1  age:18  mobile:"18676662555"  idCard:"5106811222223333"}
+2023-10-04T08:17:07.191+0800	INFO	server/middleware.go:44	Trace-ID:|component:grpc,operation:/api.user.v1.User/GetUserByName,args:userName:"admin",code:0,reason:
+2023-10-04T08:17:07.194+0800	INFO	server/middleware.go:57	Trace-ID:|cost 2.791083ms
+2023-10-04T08:17:07.194+0800	INFO	server/middleware.go:58	Trace-ID:|reply message:"success"  data:{userID:"1"  userName:"admin"  pwd:"123321"  sex:1  age:18  mobile:"18676662555"  idCard:"5106811222223333"}
+2023-10-04T08:19:56.159+0800	INFO	server/middleware.go:44	Trace-ID:2233|component:grpc,operation:/api.user.v1.User/GetUserByName,args:userName:"admin",code:0,reason:
+2023-10-04T08:19:56.164+0800	INFO	server/middleware.go:57	Trace-ID:2233|cost 3.814583ms
+2023-10-04T08:19:56.164+0800	INFO	server/middleware.go:58	Trace-ID:2233|reply message:"success"  data:{userID:"1"  userName:"admin"  pwd:"123321"  sex:1  age:18  mobile:"18676662555"  idCard:"5106811222223333"}
+2023-10-04T08:19:56.171+0800	INFO	server/middleware.go:44	Trace-ID:2233|component:grpc,operation:/api.user.v1.User/GetUserByName,args:userName:"admin",code:0,reason:
+2023-10-04T08:19:56.174+0800	INFO	server/middleware.go:57	Trace-ID:2233|cost 3.794333ms
+2023-10-04T08:19:56.174+0800	INFO	server/middleware.go:58	Trace-ID:2233|reply message:"success"  data:{userID:"1"  userName:"admin"  pwd:"123321"  sex:1  age:18  mobile:"18676662555"  idCard:"5106811222223333"}
+2023-10-04T08:21:29.048+0800	INFO	server/middleware.go:44	Trace-ID:2233|component:grpc,operation:/api.user.v1.User/GetUserByName,args:userName:"admin",code:0,reason:
+2023-10-04T08:21:29.051+0800	INFO	server/middleware.go:57	Trace-ID:2233|cost 2.750625ms
+2023-10-04T08:21:29.051+0800	INFO	server/middleware.go:58	Trace-ID:2233|reply message:"success"  data:{userID:"1"  userName:"admin"  pwd:"123321"  sex:1  age:18  mobile:"18676662555"  idCard:"5106811222223333"}
+2023-10-04T08:21:29.057+0800	INFO	server/middleware.go:44	Trace-ID:2233|component:grpc,operation:/api.user.v1.User/GetUserByName,args:userName:"admin",code:0,reason:
+2023-10-04T08:21:29.060+0800	INFO	server/middleware.go:57	Trace-ID:2233|cost 3.126417ms
+2023-10-04T08:21:29.060+0800	INFO	server/middleware.go:58	Trace-ID:2233|reply message:"success"  data:{userID:"1"  userName:"admin"  pwd:"123321"  sex:1  age:18  mobile:"18676662555"  idCard:"5106811222223333"}
+2023-10-04T08:23:01.843+0800	INFO	server/middleware.go:44	Trace-ID:2233|component:grpc,operation:/api.user.v1.User/GetUserByName,args:userName:"admin",code:0,reason:
+2023-10-04T08:23:01.845+0800	INFO	server/middleware.go:57	Trace-ID:2233|cost 1.489792ms
+2023-10-04T08:23:01.845+0800	INFO	server/middleware.go:58	Trace-ID:2233|reply message:"success"  data:{userID:"1"  userName:"admin"  pwd:"123321"  sex:1  age:18  mobile:"18676662555"  idCard:"5106811222223333"}
+2023-10-04T08:23:01.849+0800	INFO	server/middleware.go:44	Trace-ID:2233|component:grpc,operation:/api.user.v1.User/GetUserByName,args:userName:"admin",code:0,reason:
+2023-10-04T08:23:01.850+0800	INFO	server/middleware.go:57	Trace-ID:2233|cost 1.083125ms
+2023-10-04T08:23:01.850+0800	INFO	server/middleware.go:58	Trace-ID:2233|reply message:"success"  data:{userID:"1"  userName:"admin"  pwd:"123321"  sex:1  age:18  mobile:"18676662555"  idCard:"5106811222223333"}
+2023-10-04T08:26:48.746+0800	INFO	server/middleware.go:22	Trace-ID:2233|traceID %!(EXTRA string=2233)
+2023-10-04T08:26:48.747+0800	INFO	server/middleware.go:43	Trace-ID:2233|component:grpc,operation:/api.user.v1.User/GetUserByName,args:userName:"admin",code:0,reason:
+2023-10-04T08:26:48.750+0800	INFO	server/middleware.go:56	Trace-ID:2233|cost 3.13ms
+2023-10-04T08:26:48.750+0800	INFO	server/middleware.go:57	Trace-ID:2233|reply message:"success" data:{userID:"1" userName:"admin" pwd:"123321" sex:1 age:18 mobile:"18676662555" idCard:"5106811222223333"}
+2023-10-04T08:26:48.758+0800	INFO	server/middleware.go:22	Trace-ID:2233|traceID %!(EXTRA string=2233)
+2023-10-04T08:26:48.758+0800	INFO	server/middleware.go:43	Trace-ID:2233|component:grpc,operation:/api.user.v1.User/GetUserByName,args:userName:"admin",code:0,reason:
+2023-10-04T08:26:48.761+0800	INFO	server/middleware.go:56	Trace-ID:2233|cost 2.48ms
+2023-10-04T08:26:48.761+0800	INFO	server/middleware.go:57	Trace-ID:2233|reply message:"success" data:{userID:"1" userName:"admin" pwd:"123321" sex:1 age:18 mobile:"18676662555" idCard:"5106811222223333"}
+2023-10-04T08:28:02.991+0800	INFO	server/middleware.go:22	Trace-ID:2233|traceID %!(EXTRA string=2233)
+2023-10-04T08:28:02.992+0800	INFO	server/middleware.go:43	Trace-ID:2233|component:grpc,operation:/api.user.v1.User/GetUserByName,args:userName:"admin",code:0,reason:
+2023-10-04T08:28:02.995+0800	INFO	server/middleware.go:56	Trace-ID:2233|cost 2.762666ms
+2023-10-04T08:28:02.995+0800	INFO	server/middleware.go:57	Trace-ID:2233|reply message:"success" data:{userID:"1" userName:"admin" pwd:"123321" sex:1 age:18 mobile:"18676662555" idCard:"5106811222223333"}
+2023-10-04T08:28:03.001+0800	INFO	server/middleware.go:22	Trace-ID:2233|traceID %!(EXTRA string=2233)
+2023-10-04T08:28:03.001+0800	INFO	server/middleware.go:43	Trace-ID:2233|component:grpc,operation:/api.user.v1.User/GetUserByName,args:userName:"admin",code:0,reason:
+2023-10-04T08:28:03.004+0800	INFO	server/middleware.go:56	Trace-ID:2233|cost 2.893042ms
+2023-10-04T08:28:03.004+0800	INFO	server/middleware.go:57	Trace-ID:2233|reply message:"success" data:{userID:"1" userName:"admin" pwd:"123321" sex:1 age:18 mobile:"18676662555" idCard:"5106811222223333"}
+2023-10-04T08:28:11.096+0800	INFO	user/router.go:55	Trace-ID:121321313|ReqPath[/get_user_info]-Cost[6.875µs]
+
+2023-10-04T08:37:33.650+0800	INFO	user/router.go:55	Trace-ID:121321313|ReqPath[/get_user_info]-Cost[19.208µs]
+
+2023-10-04T08:37:37.581+0800	INFO	server/middleware.go:27	Trace-ID:2233|traceID %!(EXTRA string=2233)
+2023-10-04T08:37:37.581+0800	INFO	server/middleware.go:52	Trace-ID:2233|component:grpc,operation:/api.user.v1.User/GetUserByName,args:userName:"admin",code:0,reason:
+2023-10-04T08:37:37.583+0800	INFO	server/middleware.go:65	Trace-ID:2233|cost 2.099ms
+2023-10-04T08:37:37.583+0800	INFO	server/middleware.go:66	Trace-ID:2233|reply message:"success"  data:{userID:"1"  userName:"admin"  pwd:"123321"  sex:1  age:18  mobile:"18676662555"  idCard:"5106811222223333"}
+2023-10-04T08:37:37.589+0800	INFO	server/middleware.go:27	Trace-ID:2233|traceID %!(EXTRA string=2233)
+2023-10-04T08:37:37.589+0800	INFO	server/middleware.go:52	Trace-ID:2233|component:grpc,operation:/api.user.v1.User/GetUserByName,args:userName:"admin",code:0,reason:
+2023-10-04T08:37:37.590+0800	INFO	server/middleware.go:65	Trace-ID:2233|cost 1.6805ms
+2023-10-04T08:37:37.590+0800	INFO	server/middleware.go:66	Trace-ID:2233|reply message:"success"  data:{userID:"1"  userName:"admin"  pwd:"123321"  sex:1  age:18  mobile:"18676662555"  idCard:"5106811222223333"}
+2023-10-04T22:24:36.763+0800	INFO	server/middleware.go:27	Trace-ID:2233|traceID %!(EXTRA string=2233)
+2023-10-04T22:24:36.764+0800	INFO	server/middleware.go:52	Trace-ID:2233|component:grpc,operation:/api.user.v1.User/GetUserByName,args:userName:"admin",code:0,reason:
+2023-10-04T22:24:36.777+0800	INFO	server/middleware.go:65	Trace-ID:2233|cost 13.627333ms
+2023-10-04T22:24:36.778+0800	INFO	server/middleware.go:66	Trace-ID:2233|reply message:"success" data:{userID:"1" userName:"admin" pwd:"123321" sex:1 age:18 mobile:"18676662555" idCard:"5106811222223333"}
+2023-10-04T22:24:36.783+0800	INFO	server/middleware.go:27	Trace-ID:2233|traceID %!(EXTRA string=2233)
+2023-10-04T22:24:36.783+0800	INFO	server/middleware.go:52	Trace-ID:2233|component:grpc,operation:/api.user.v1.User/GetUserByName,args:userName:"admin",code:0,reason:
+2023-10-04T22:24:36.785+0800	INFO	server/middleware.go:65	Trace-ID:2233|cost 1.768667ms
+2023-10-04T22:24:36.785+0800	INFO	server/middleware.go:66	Trace-ID:2233|reply message:"success" data:{userID:"1" userName:"admin" pwd:"123321" sex:1 age:18 mobile:"18676662555" idCard:"5106811222223333"}
+2023-10-04T22:26:51.276+0800	INFO	user/router.go:55	Trace-ID:121321313|ReqPath[/get_user_info]-Cost[4.667µs]
+
