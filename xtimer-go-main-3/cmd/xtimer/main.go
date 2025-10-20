@@ -93,5 +93,5 @@ func InitSource(c *conf.Bootstrap) {
 		log.WithLogPath(l.GetLogPath()),
 		log.WithConsole(l.GetConsole()))
 	// 注册服务
-	discovery.NewRegistrar(c.GetMicro().GetLb().GetAddr())
+	//discovery.NewRegistrar(c.GetMicro().GetLb().GetAddr())
 }

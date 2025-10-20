@@ -15,9 +15,9 @@ server:
 
 data:
   database:
-    addr: 59.110.34.61:3306
-    user: bitstorm-svr-go-root
-    password: YfxGpMkPWYfEi87K
+    addr: 127.0.0.1:3306
+    user: root
+    password: xiwanli
     database: bitstorm-svr-go
     max_idle_conn: 20
     max_open_conn: 50
@@ -25,9 +25,9 @@ data:
     slow_threshold_millisecond: 100 # SQL执行超过100ms，就算慢sql
 
   redis:
-    addr: 59.110.34.61:6379
+    addr: 127.0.0.1:6379
     password: xiwanli
-    db: 8
+    db: 0
     pool_size: 20
     read_timeout: 120s
     write_timeout: 120s
